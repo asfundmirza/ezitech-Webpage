@@ -7,8 +7,12 @@ const TopSection = () => {
     <div className="flex">
       <div
         style={{ backgroundImage: `url(${BackgroundImage})` }}
-        className="w-full min-h-screen bg-cover bg-center opacity-90  "
+        className="relative w-full min-h-screen bg-cover bg-center"
       >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
+
+        {/* Content */}
         <Navbar />
         <HeroSection />
       </div>

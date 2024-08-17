@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className="flex w-full text-white  ">
+      <div className="flex w-full text-white relative z-20  ">
         <div className="flex w-full justify-center">
           <div class="flex justify-between pt-5 w-full max-w-[1200px] px-2  items-center">
             <div class="flex flex-col items-center ">

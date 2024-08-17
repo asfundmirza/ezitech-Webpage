@@ -8,7 +8,7 @@ import Ezicoding from "../../../assets/topSection/heroSection/ezicoding.png";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex w-full h-[90%]  text-white  ">
+      <div className="flex w-full h-[90%] text-white relative z-20 ">
         <div className="flex w-full  justify-center">
           <div class="flex flex-col gap-6 w-full max-w-[1000px] items-center justify-center  px-2 ">
             <div className="w-full text-center">
@@ -39,9 +39,15 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="flex gap-8 items-center">
-              <h1 className="flex text-[50px] font-bold">EZIBLOGS</h1>
-              <h1 className="flex text-[50px] font-bold">EZIPOS</h1>
-              <h1 className="flex text-[50px] font-bold">EZICODING</h1>
+              <h1 className="flex text-[50px] font-bold">
+                EZIBL<span className="text-blue-400">O</span>GS
+              </h1>
+              <h1 className="flex text-[50px] font-bold">
+                EZIP<span className="text-blue-400">O</span>S
+              </h1>
+              <h1 className="flex text-[50px] font-bold">
+                EZIC<span className="text-blue-400">O</span>DING
+              </h1>
             </div>
           </div>
         </div>
