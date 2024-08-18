@@ -77,14 +77,16 @@ const PerfectInternship = () => {
               >
                 <div className="bg-blue-800 rounded-t-lg shadow-lg text-white w-full p-6 flex justify-between">
                   <div className="flex flex-col gap-1">
-                    <h1 className="text-[32px] font-bold">{box.name}</h1>
+                    <h1 className="text-[20px] md:text-[32px] font-bold">
+                      {box.name}
+                    </h1>
                     <div className="w-[50%] border  bg-white "></div>
                     <p>Ezitech Institute</p>
                   </div>
                   <img
                     src={box.src}
                     alt={box.alt}
-                    className="rounded-md h-[100px] w-[100px] object-cover"
+                    className="rounded-md h-auto w-[60px] md:w-[100px] object-cover"
                   />
                 </div>
                 <div className="flex flex-col p-6 gap-4 text-black">

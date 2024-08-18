@@ -23,7 +23,7 @@ const Navbar = () => {
               <img
                 src={Logo}
                 alt="logo"
-                className=" h-auto w-[150px] lg:w-[200px]"
+                className=" h-auto w-[100px] lg:w-[200px]"
               />
             </div>
             <nav className="hidden md:flex justify-center ">
