@@ -11,7 +11,7 @@ import { ChevronDown } from "lucide-react";
 
 const LimitedTime = () => {
   return (
-    <div className="flex flex-col w-full items-center     ">
+    <div className="flex flex-col w-full items-center mt-10    ">
       <h1 className="flex justify-center font-bold text-[40px]">
         Limited-Time Summer Course Bundles!
       </h1>
@@ -27,7 +27,7 @@ const LimitedTime = () => {
               </h1>
               <h1 className="font-extralight">4 courses</h1>
             </div>
-            <div className="text-black flex w-full gap-2 border-b p-2 items-center">
+            <div className="text-black flex w-full gap-2 border-b p-2  items-center">
               <div className="flex gap-2 items-center">
                 <img
                   src={Javascript}
