@@ -5,7 +5,7 @@ import GooglePlay from "../../../assets/middleSection/upperFooter/googlePlay.png
 
 const UpperFooter = () => {
   return (
-    <div className="flex w-full text-black  ">
+    <div className="flex w-full text-black mt-10  ">
       <div className="flex w-full justify-center">
         <div class="flex w-full items-center  max-w-[1200px] px-2">
           <div className="flex justify-between ">

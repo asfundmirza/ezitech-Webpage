@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="w-full text-center">
               <h1 className="text-[70px] font-bold">
                 Learn the fundamentals with our expert in{" "}
-                <span className="text-blue-400">Programming</span>
+                <span className="text-blue-600">Programming</span>
               </h1>
             </div>
             <h1 className="flex text-[30px] text-center ">
@@ -37,13 +37,13 @@ const HeroSection = () => {
             </div>
             <div className="flex gap-8 items-center">
               <h1 className="flex text-[50px] font-bold">
-                EZIBL<span className="text-blue-400">O</span>GS
+                EZIBL<span className="text-blue-600">O</span>GS
               </h1>
               <h1 className="flex text-[50px] font-bold">
-                EZIP<span className="text-blue-400">O</span>S
+                EZIP<span className="text-blue-600">O</span>S
               </h1>
               <h1 className="flex text-[50px] font-bold">
-                EZIC<span className="text-blue-400">O</span>DING
+                EZIC<span className="text-blue-600">O</span>DING
               </h1>
             </div>
           </div>
