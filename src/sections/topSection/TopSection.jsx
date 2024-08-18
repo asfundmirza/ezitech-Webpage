@@ -7,7 +7,7 @@ const TopSection = () => {
     <div className="flex">
       <div
         style={{ backgroundImage: `url(${BackgroundImage})` }}
-        className="relative w-full min-h-screen bg-cover bg-center"
+        className="relative w-full h-[90vh] bg-cover bg-center"
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-40 z-10"></div>

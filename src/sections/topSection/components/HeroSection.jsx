@@ -1,9 +1,6 @@
 import React from "react";
 import { Search } from "lucide-react";
 import { Heart } from "lucide-react";
-import Eziblog from "../../../assets/topSection/heroSection/EZIBLOGS-DG.png";
-import Ezipos from "../../../assets/topSection/heroSection/white-ezipos.png";
-import Ezicoding from "../../../assets/topSection/heroSection/ezicoding.png";
 
 const HeroSection = () => {
   return (
