@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import Logo from "../../../assets/topSection/ezitech-logo.png";
 import { Heart } from "lucide-react";
 import { Search } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   const navLinks = [
@@ -33,7 +34,7 @@ const Navbar = () => {
                 ))}
               </ul>
             </nav>
-            <div className="flex items-center gap-4">
+            <div className="hidden md:flex items-center gap-4">
               <div className="flex h-full">
                 <div className="w-[1px] h-[30px] bg-gray-400  border-solid opacity-20"></div>
               </div>
@@ -43,6 +44,9 @@ const Navbar = () => {
               <div className="border-[2px] p-1 border-white">
                 <Search className="lg:w-4 w-2 h-auto" />
               </div>
+            </div>
+            <div className="flex md:hidden">
+              <Menu />
             </div>
           </div>
         </div>

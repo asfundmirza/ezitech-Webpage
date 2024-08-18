@@ -65,7 +65,7 @@ const PerfectInternship = () => {
       <div className="flex w-full justify-center">
         <div class="flex flex-col w-full max-w-[1200px] px-2 gap-14">
           <div className="flex justify-center">
-            <h1 className="text-[40px] font-bold pt-[100px]  ">
+            <h1 className="text-[40px] font-bold pt-[100px] text-center  ">
               Perfect Internship's For You?
             </h1>
           </div>
