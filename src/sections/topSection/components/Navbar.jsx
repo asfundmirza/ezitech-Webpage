@@ -19,11 +19,15 @@ const Navbar = () => {
       <div className="flex w-full text-white relative z-20  ">
         <div className="flex w-full justify-center">
           <div class="flex justify-between pt-5 w-full max-w-[1200px] px-2  items-center">
-            <div class="flex flex-col items-center ">
-              <img src={Logo} alt="logo" className=" h-[70px] w-[200px]" />
+            <div class="flex  items-center ">
+              <img
+                src={Logo}
+                alt="logo"
+                className=" h-auto w-[150px] lg:w-[200px]"
+              />
             </div>
-            <nav className="flex-1 ">
-              <ul className="flex gap-5 justify-center font-bold">
+            <nav className="hidden md:flex justify-center ">
+              <ul className="flex gap-5 justify-center font-bold text-xs lg:text-sm ">
                 {navLinks.map((link) => (
                   <li key={link.name}>{link.name}</li>
                 ))}
@@ -34,10 +38,10 @@ const Navbar = () => {
                 <div className="w-[1px] h-[30px] bg-gray-400  border-solid opacity-20"></div>
               </div>
               <div className=" hover:bg-green-400 rounded-full p-2">
-                <Heart />
+                <Heart className="lg:w-7 w-4 h-auto" />
               </div>
               <div className="border-[2px] p-1 border-white">
-                <Search className="w-4 h-4" />
+                <Search className="lg:w-4 w-2 h-auto" />
               </div>
             </div>
           </div>

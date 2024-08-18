@@ -36,16 +36,16 @@ const HowItWorks = () => {
           <div className="flex justify-center">
             <h1 className="text-[40px] font-bold pt-4  ">How it works?</h1>
           </div>
-          <div className="flex justify-center gap-12">
+          <div className="flex md:flex-row flex-col md:gap-0 gap-6 w-full  justify-between items-center ">
             <img
               src={TopImage}
               alt="how it works"
-              className="w-[400px] h-[300px]"
+              className="lg:w-[400px] w-[300px] h-auto"
             />
             <img
               src={TopImage2}
               alt="how it works"
-              className="w-[400px] h-[300px]"
+              className="lg:w-[400px] w-[300px] h-auto"
             />{" "}
           </div>
           <div className="grid grid-cols-2 gap-4 p-4 md:grid-cols-4 lg:grid-cols-6">

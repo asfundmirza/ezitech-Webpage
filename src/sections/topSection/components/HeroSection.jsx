@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="flex w-full  justify-center">
           <div class="flex flex-col gap-6 w-full max-w-[1000px] items-center justify-center  px-2 ">
             <div className="w-full text-center">
-              <h1 className="text-[70px] font-bold">
+              <h1 className=" text-[40px] md:text-[65px] font-bold">
                 Learn the fundamentals with our expert in{" "}
                 <span className="text-blue-600">Programming</span>
               </h1>
@@ -36,13 +36,13 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="flex gap-8 items-center">
-              <h1 className="flex text-[50px] font-bold">
+              <h1 className="flex text-[20px] md:text-[45px] font-bold">
                 EZIBL<span className="text-blue-600">O</span>GS
               </h1>
-              <h1 className="flex text-[50px] font-bold">
+              <h1 className="flex text-[20px] md:text-[45px] font-bold">
                 EZIP<span className="text-blue-600">O</span>S
               </h1>
-              <h1 className="flex text-[50px] font-bold">
+              <h1 className="flex text-[20px] md:text-[45px] font-bold">
                 EZIC<span className="text-blue-600">O</span>DING
               </h1>
             </div>
