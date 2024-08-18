@@ -18,7 +18,7 @@ const Footerimage = () => {
       <img
         src={FooterImage}
         alt="footerimage"
-        className="max-w-[1600px] h-[600px]"
+        className="w-full max-w-[1600px] h-auto"
       />
       <footer className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 max-w-[1200px]  ">
         {/* About Us */}

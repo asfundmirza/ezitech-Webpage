@@ -8,16 +8,14 @@ const UpperFooter = () => {
     <div className="flex w-full text-black mt-10  ">
       <div className="flex w-full justify-center">
         <div class="flex w-full items-center  max-w-[1200px] px-2">
-          <div className="flex justify-between ">
-            <div className="flex w-[600px] h-[600px]">
-              <img src={MobilePhone} alt="phone" className="h-full w-full" />
-            </div>
+          <div className="hidden flex-1 md:flex  max-w-[600px]">
+            <img src={MobilePhone} alt="phone" className="h-auto w-full" />
           </div>
-          <div className="flex flex-col gap-6">
-            <h1 className="text-[70px] font-bold">
+          <div className="flex-1 flex flex-col gap-6 text-center items-center">
+            <h1 className="text-[40px] md:text-[70px] font-bold">
               Learn <span className="text-blue-700">anytime</span> from anywhere
             </h1>
-            <p className=" font-light">
+            <p className="hidden md:flex font-light">
               Increase the mobility level with Eziline Technologies LMS App.
               Take your courses in your pocket and access them whenever you want
               withour any limits. Make your learning more engaging and
